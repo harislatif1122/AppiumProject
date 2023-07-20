@@ -32,14 +32,14 @@ signup_page.enter_confirm_email(email)
 signup_page.select_passenger_type()
 signup_page.tap_passenger_value(0)  # Assuming 0 is the index for 'Adult'
 
-# Perform w3c actions
-signup_page.perform_w3c_action(513, 1739, 516, 847)
-
 phone_number = '03001234567'
 password = 'Haris1@_'
 
 signup_page.enter_phone_number(phone_number)
 signup_page.enter_password(password)
+
+# Perform w3c actions
+signup_page.perform_w3c_action(513, 1739, 516, 847)
 signup_page.enter_confirm_password(password)
 
 # Perform w3c actions
