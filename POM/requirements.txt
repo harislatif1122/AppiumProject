@@ -1,3 +1,4 @@
+--user
 Appium-Python-Client==2.11.1
 PySocks==1.7.1
 allure-pytest==2.13.2
